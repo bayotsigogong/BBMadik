@@ -1,0 +1,34 @@
+body {
+  background: radial-gradient(ellipse at top left, #1c1c1c, #000);
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  padding: 2rem;
+}
+.glow-text {
+  font-size: 2rem;
+  text-shadow: 0 0 10px #fff, 0 0 20px #f0f, 0 0 30px #f0f;
+}
+.container {
+  margin-top: 3rem;
+}
+button {
+  background-color: #f0f;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+button:hover {
+  transform: scale(1.1);
+  background-color: #ff00ffb2;
+}
+img {
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #f0f;
+  margin-top: 2rem;
+}
